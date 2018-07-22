@@ -1,0 +1,155 @@
+/* *************************** */
+/* *** BASIC SETUP *********** */
+/* *************************** */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #000;
+    background-image: linear-gradient(rgba(42, 26, 12, 0.75), rgba(42, 26, 12, 0.75)), url(img/wawel2.jpg);
+    background-attachment: fixed;
+}
+
+.clearfix {zoom:1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/* *************************** */
+/* *** REUSABLE COMPONENTS *** */
+/* *************************** */
+
+h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000
+}
+
+.row {
+    max-width: inherit;
+    margin: 0 auto;
+}
+
+.col {
+    float: left;
+    padding: 10px;
+    opacity: 0.8;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* *************************** */
+/* ******** HEADER *********** */
+/* *************************** */
+
+header {
+    height: 200px;
+    background: url(img/car.jpg), url(img/castle.jpg);
+    background-position: right, left;
+    background-size: contain;
+    background-repeat: no-repeat, no-repeat;
+    opacity: 0.8;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    letter-spacing: 4px;
+    mix-blend-mode: difference;
+}
+
+/* *************************** */
+/* ******** ZAMKI ************ */
+/* *************************** */
+
+
+.castle {
+    width: 15%;
+    background-color: rgb(227, 65, 44);
+    opacity: 0.5;
+    color: #000;
+    font-weight: 600;
+    border: 2px solid #e67e22;
+}
+
+.castle h2 {
+    margin-bottom: 40px;
+}
+
+.castle ul {
+    text-align: left;
+}
+
+.castle li {
+    list-style: none;
+    margin: 5px 0 0 0;
+}
+
+
+/* *************************** */
+/* ******** OPIS ************* */
+/* *************************** */
+
+.desc {
+    width: 60%;
+    background-color: rgb(255, 244, 183);
+    
+    opacity: 0.5;
+    color: #ff0010;
+    font-weight: 600;
+    border: 2px solid #e67e22;
+}
+
+.desc h5 {
+    margin-bottom: 40px;
+}
+
+.desc p {
+    color: #b00030;
+    text-align: justify;
+    line-height: 1.4;
+    
+}
+
+
+/* *************************** */
+/* ******** OPIS ************* */
+/* *************************** */
+
+.route {
+    border: 2px solid #e67e22;
+    width: 25%;
+    background-color: rgb(255, 167, 106);
+    opacity: 0.5;
+    color: #000;
+    font-weight: 600;
+}
+
+.route h2 {
+    margin-bottom: 40px;
+}
+
+
+/* *************************** */
+/* ******** FOOTER *********** */
+/* *************************** */
+
+
+.footer {
+    text-align: center;
+    color: #fff;
+}
